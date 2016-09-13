@@ -16,7 +16,6 @@ class NewVisitorTest(unittest.TestCase):
 
         # She notices the page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
-        self.fail('Finish the test!')
 
         # She is invited to enter a to-do item straight away
 
@@ -36,6 +35,7 @@ class NewVisitorTest(unittest.TestCase):
         # explanatory text to that effect.
 
         # She visits that URL - her to-do list is still there.
+        self.fail('Finish the test!')
 
     # Satisfied, she goes back to sleep
     def tearDown(self):
